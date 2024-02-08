@@ -1,0 +1,33 @@
+.container {
+  max-width: 60%;
+  text-align: center;
+  margin: 50px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  background-color: rgba(179, 183, 183, 0.558);
+  border: 6px solid rgb(227, 156, 42);
+}
+.whole-drum {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7px;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* margin: 50px auto; */
+  width: min-content;
+}
+.drum-pad {
+  margin-left: 20px;
+
+  width: 100px;
+  height: 100px;
+  border: 2px solid #2f2f2f;
+  background-color: rgba(75, 79, 79, 0.558);
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 5px black;
+  transition: all 0.2s ease in-out;
+}
+.drum-pad:active {
+  transform: translate(4px, 4px);
+}
